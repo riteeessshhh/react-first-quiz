@@ -1,0 +1,58 @@
+.container {
+    max-width: 600px;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-height: 550px;
+    gap: 25px;
+    color: rgb(94, 5, 94);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  hr {
+    
+    color: black;
+  }
+  
+  .container ul li {
+    list-style: none;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 40px;
+    margin-top: 12px;
+    padding-top: 9px;
+    font-size: 1.3rem;
+  }
+
+  .container button {
+    height: 50px;
+    width: 75px;
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: rgb(134, 24, 134);
+    color: white;
+  }
+  .container .correct {
+    background-color: rgb(190, 223, 141);
+    border: 2px solid green;
+    color: green;
+  }
+  .container .wrong {
+    background-color: rgb(255, 184, 208);
+    border: 2px solid red;
+    color: red;
+  }
+
+  .output button {
+     width: 150px;
+     margin-top: 25px;
+     
+  }
+ 
+  
